@@ -89,3 +89,9 @@ Looking for `setup.py`? Try using `poetry`, or if you really need `setup.py`, in
 pip install --user dephell  # unless already installed
 dephell deps convert --from pyproject.toml --to setup.py
 ```
+
+## Donations
+
+It is absolutely fine if you use this software for free for commercial or non-commercial purposes. On the other hand, if you would like to repay author's efforts you are welcome to use following button:
+
+![https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D9KUJD9LTKJY8&source=url](https://www.paypalobjects.com/en_US/PL/i/btn/btn_donateCC_LG.gif)
