@@ -94,4 +94,4 @@ dephell deps convert --from pyproject.toml --to setup.py
 
 It is absolutely fine if you use this software for free for commercial or non-commercial purposes. On the other hand, if you would like to repay author's efforts you are welcome to use following button:
 
-![https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D9KUJD9LTKJY8&source=url](https://www.paypalobjects.com/en_US/PL/i/btn/btn_donateCC_LG.gif)
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D9KUJD9LTKJY8&source=url"><img border="0" alt="Pay at PayPal" src="https://www.paypalobjects.com/en_US/PL/i/btn/btn_donateCC_LG.gif"></a>
