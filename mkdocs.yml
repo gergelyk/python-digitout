@@ -1,0 +1,43 @@
+site_name: DigItOut
+
+repo_name: python-digitout
+repo_url: https://github.com/gergelyk/python-digitout
+edit_uri: ""
+copyright: 'Copyright &copy; Grzegorz Krasoń'
+
+theme:
+  name: "material"
+  include_search_page: false
+  search_index_only: true
+
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.extrarawhtml
+  - pymdownx.superfences
+
+
+plugins:
+  - search
+  - mkdocstrings:
+      watch:
+        - digitout
+
+extra_css:
+  - assets/javascripts/asciinema-player.css
+
+extra_javascript:
+  - assets/javascripts/asciinema-player.js
+
+extra:
+  social:
+    - type: github-alt
+      link: https://github.com/gergelyk/python-digitout
+
+nav:
+  - Overview: index.md
+  - Configuration: configuration.md
+  - API: api.md
