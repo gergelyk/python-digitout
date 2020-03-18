@@ -4,13 +4,13 @@ Seek data structures of your Python application.
 
 ## Installation
 
-```
+```sh
 pip install digitout
 ```
 
 ## Usage
 
-```
+```python
 def foobar() -> 123:
     pass
 
@@ -20,7 +20,7 @@ digitout(foobar)
 
 ## Documentation
 
-TBD
+<https://gergelyk.github.io/python-digitout/>
 
 ## Author
 
@@ -65,6 +65,20 @@ git push --tags
 
 ```sh
 poetry build
+```
+
+### Publishing Documentation
+
+```sh
+poetry run mkdocs gh-deploy -b gh-pages
+```
+
+### Publishing Package
+
+```sh
+read -s PASS
+poetry publish --build -u <username> -p $PASS
+unset PASS
 ```
 
 ### Compatibility with `setuptools`

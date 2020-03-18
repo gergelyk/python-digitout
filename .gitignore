@@ -1,4 +1,6 @@
 __pycache__
-.venv
-.mypy_cache
+.venv/
+.mypy_cache/
+site/
+dist/
 *.egg-info
