@@ -2,6 +2,8 @@
 
 Seek data structures of your Python application.
 
+![](docs/assets/demo.gif)
+
 ## Installation
 
 ```sh
