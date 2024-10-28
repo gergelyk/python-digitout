@@ -1,4 +1,6 @@
 # digitout
+![PyPI - Version](https://img.shields.io/pypi/v/digitout)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/digitout)
 
 Seek data structures of your Python application.
 
